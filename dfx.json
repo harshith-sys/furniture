@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "furniture_backend": {
+      "main": "src/furniture_backend/main.mo",
+      "type": "motoko"
+    },
+    "furniture_frontend": {
+      "dependencies": [
+        "furniture_backend"
+      ],
+      "source": [
+        "src/furniture_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "furniture_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
