@@ -9,14 +9,14 @@ const Karusel = () => {
       id: 1,
       user1: {
         img: img1,
-        name: "Mr. Jone Ambrose",
+        name: "Mr. harshith",
         data: "2022-07-11",
         lorem:
           "“Lorem Ipsum has been the industry by standard dummy text ever to since the 1500s, it’s  type and scrambled it to make a type specimen book. It’s has survived not only five.”",
       },
       user2: {
         img: img2,
-        name: "Mr. Jone Ambrose",
+        name: "Mr. harshith",
         data: "2022-07-11",
         lorem:
           "“Lorem Ipsum has been the industry by standard dummy text ever to since the 1500s, it’s  type and scrambled it to make a type specimen book. It’s has survived not only five.”",
@@ -26,14 +26,14 @@ const Karusel = () => {
       id: 2,
       user1: {
         img: img2,
-        name: "Mr. Jone Ambrose",
+        name: "Mr. harshith",
         data: "2022-07-11",
         lorem:
           "“Lorem Ipsum has been the industry by standard dummy text ever to since the 1500s, it’s  type and scrambled it to make a type specimen book. It’s has survived not only five.”",
       },
       user2: {
         img: img1,
-        name: "Mr. Jone Ambrose",
+        name: "Mr. harshith",
         data: "2022-07-11",
         lorem:
           "“Lorem Ipsum has been the industry by standard dummy text ever to since the 1500s, it’s  type and scrambled it to make a type specimen book. It’s has survived not only five.”",
@@ -92,7 +92,7 @@ const Karusel = () => {
     <KaruselSt>
       <button onClick={() => onLeft()}>{"<="}</button>
       <div className="KaruselF">
-        <img src={Sugar.user1.img} alt="" />
+        <img src="1.png" alt="" />
         <div className="KaruselF2">
           <h1> {Sugar.user1.name} </h1>
           <div>{Sugar.user1.data}</div>
@@ -101,14 +101,14 @@ const Karusel = () => {
       </div>
 
       <div className="KaruselF">
-        <img src={Sugar.user2.img} alt="" />
+        <img src="2.png" alt="" />
         <div className="KaruselF2">
           <h1> {Sugar.user2.name} </h1>
           <div>{Sugar.user2.data}</div>
           <div>{Sugar.user2.lorem}</div>
         </div>
       </div>
-      <button onClick={() => onRight()}>{"=>"}</button>
+      <button onClick={() => onRight()}>{"⏭️"}</button>
     </KaruselSt>
   );
 };

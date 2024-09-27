@@ -1,5 +1,4 @@
 import React from "react";
-import Login from "../Login/Login"
 import { NavLink, useNavigate, Link } from "react-router-dom";
 import { Button, Container } from "./style";
 import { Utils } from "../../Utils/index";
@@ -11,7 +10,7 @@ function Navbar() {
   return (
     <Container>
       <div className="imgLogo">
-        <img src={logo} alt="logo bor" />
+        <img src="logo2.svg" alt="logo bor" />
       </div>
       <div className="navRight">
         {Utils.map((v) => (
@@ -30,7 +29,7 @@ function Navbar() {
           <p> Order Now </p>
         </Button>
         <a href="#search" className="Npoisk">
-          <img src={poisk} alt="" />
+          <img src="poisk.svg" alt="" />
         </a>
       </div>
     </Container>

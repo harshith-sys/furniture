@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 const FurnitureStyle = styled.div`
   width: 1440px;
+  height: auto;
   margin: 0 auto;
   margin-top: 50px;
 `;
@@ -9,7 +10,11 @@ const FurnitureStyle = styled.div`
 const FurnitureSt = styled.div`
   display: grid;
   grid-template-columns: repeat(4, 25%);
+  box-sizing: border-box;
+  height: auto;
+  // overflow: scroll;
 `;
+
 const FurnitureCon = styled.div`
   margin: 0 auto;
   margin-top: 50px;
@@ -20,6 +25,7 @@ const FurnitureCon = styled.div`
   background: #f9f9f9;
   box-shadow: 8px 8px 20px rgba(39, 39, 43, 0.1);
   border-radius: 5px;
+  border: 2px solid yellow;
   transition: all 0.5s;
   cursor: pointer;
   :hover {
@@ -32,6 +38,9 @@ const FurnitureCon = styled.div`
     font-size: 20px;
     line-height: 30px;
     color: #373737;
+  }
+  .image{
+    height: 2rem;
   }
   .furnituremalumot {
     font-weight: 300;

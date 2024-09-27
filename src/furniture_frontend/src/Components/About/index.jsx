@@ -14,7 +14,7 @@ const About = () => {
       </div>
       <AboutC>
          <MexmonxonaAbout>
-          <img src={mexmonxona} alt="mexmonxona" />
+          <img src="mexmonxona.svg" alt="mexmonxona" />
          </MexmonxonaAbout>
         <More>
           <div className="lorem">
@@ -28,12 +28,12 @@ const About = () => {
           <div className="aboutBtn">More about us</div>
           <div className="aboutImg">
             <div>
-                <img src={amazon} alt="amazon" />
+                <img src="amazon.svg" alt="amazon" />
             </div>
             <div>
-                <img src={alibaba} alt="alibaba" />
+                <img src="alibaba.svg" alt="alibaba" />
             </div>
-            <img src={group} alt="group" />
+            <img src="group.svg" alt="group" />
           </div>
         </More>
       </AboutC>

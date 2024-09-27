@@ -8,7 +8,7 @@ const Home = () => {
     <>
       <HomeSt>
         <div className="IshxonaImg">
-          <img src={ishxona} alt="" />
+          <img src="ishxona.svg" alt="" />
           <div>
             <div className="chap"></div>
             <div className="ong">

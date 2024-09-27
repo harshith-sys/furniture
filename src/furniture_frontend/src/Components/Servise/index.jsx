@@ -14,21 +14,21 @@ const Servise = () => {
       </div>
       <div className="opshin">
         <div className="opshin1">
-          <img src={moshina} alt="moshina" />
+          <img src="moshina.svg" alt="moshina" />
           <div className="opshintext">Free Delevary</div>
           <div className="opshinlorem">
             It is a long established fact that a reader will be the service.
           </div>
         </div>
         <div className="opshin1">
-          <img src={nishon} alt="nishon" />
+          <img src="nishon.svg" alt="nishon" />
           <div className="opshintext">100% Guarnatee</div>
           <div className="opshinlorem">
             It is a long established fact that a reader will be the service.
           </div>
         </div>
         <div className="opshin1">
-          <img src={pitichka} alt="pitichka" />
+          <img src="pitichka.svg" alt="pitichka" />
           <div  className="opshintext">Best Quality</div>
           <div className="opshinlorem">
             It is a long established fact that a reader will be the service.

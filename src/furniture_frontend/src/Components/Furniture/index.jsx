@@ -44,13 +44,21 @@ const Furniture = () => {
 
       <FurnitureSt>
         {FurnitureM.map(
-          (v) =>
+          (v, index) =>
             v.name.toLowerCase().includes(input.toLowerCase()) &&
             onFilter(v.id) && (
               <FurnitureCon>
                 <div>
                   <img src={v.img} alt="rasmbor" />
-                </div>
+                  {/* <img src="img1.svg" className = "image" alt="rasmbor" />
+                  <img src="img2.svg" className = "image" alt="rasmbor" />
+                  <img src="img3.svg" className = "image" alt="rasmbor" />
+                  <img src="img4.svg" className = "image" alt="rasmbor" />
+                  <img src="img5.svg" className = "image" alt="rasmbor" />
+                  <img src="img6.svg" className = "image" alt="rasmbor" />
+                  <img src="img7.svg" className = "image" alt="rasmbor" />
+                  <img src="img8.svg" className = "image" alt="rasmbor" /> */}
+                </div>              
                 <div className="flex">
                   <div>{v.name}</div>
                   <div>{v.narxi}</div>

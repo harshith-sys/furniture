@@ -5,7 +5,7 @@ const Footer = () => {
   return (
    <FooterSt>
     <div className='FooterF'>
-        <div className='FooterS'>SQ R3</div>
+        <div className='FooterS'>Furnicon</div>
         <div className='FooterH H'>
         +8801760-007083
         </div>
